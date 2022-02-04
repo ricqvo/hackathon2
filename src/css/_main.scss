@@ -11,14 +11,16 @@ main {
         align-items: center;
         justify-self: center;
         min-height: 80vh;
-        margin: 5rem;
+        margin: 0;
 }
 .eventMain {
         width: 800px;
         height: 400px;
-        background-color: #ffa384;
+        background-color: #efe7bc;
         border: 2px solid #74bdcb;
         margin: 1rem;
+        display: flex;
+        flex-direction: row;
 }
 .eventRest {
         display: flex;
@@ -32,5 +34,24 @@ main {
         height: 150px;
         background-color: #ffa384;
         border: 2px solid #74bdcb;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.smallEvent__heading {
+        text-align: center;
+        // margin-left: 2rem;
+}
+img {
+        width: 20rem;
+        height: 13rem;
+        // margin: 2rem;
+}
+.eventMain__text {
+        display: flex;
+        flex-direction: column;
         margin: 1rem;
 }

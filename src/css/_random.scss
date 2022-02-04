@@ -1,0 +1,147 @@
+// SCSS FOR BUTTON/MODAL/OVERLAY
+
+$color1: rgb(52, 51, 51);
+$color2: #e7f2f8;
+
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik", sans-serif;
+}
+
+body {
+        background-color: #e7f2f8;
+        min-height: 100vh;
+}
+
+.forms__header {
+        color: $color1;
+        text-align: center;
+        font-size: 2rem;
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+        background-color: #efe7bc;
+        color: $color1;
+        margin: auto;
+        width: 100%;
+        padding: 2rem;
+        box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.78);
+        border-radius: 10px;
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        font-weight: 700;
+
+        .label {
+                opacity: 0.7;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                margin-bottom: 0.3rem;
+        }
+
+        .input {
+                margin-bottom: 1rem;
+                height: 5vh;
+                padding-left: 1rem;
+
+                &:focus {
+                        opacity: 0.75;
+                }
+        }
+
+        textarea {
+                height: 20vh;
+                width: 100%;
+                min-height: 20vh;
+                min-width: 100%;
+                max-height: 20vh;
+                max-width: 100%;
+                padding: 0.3rem;
+
+                &:focus {
+                        opacity: 0.75;
+                }
+        }
+
+        .last {
+                margin-bottom: 1.5rem;
+        }
+
+        .margin {
+                margin-left: 0.5rem;
+                margin-top: 0.2rem;
+                padding-top: 0.3rem;
+        }
+
+        .btn {
+                background-color: #ffa384;
+                color: rgb(23, 22, 22);
+                text-transform: uppercase;
+                font-weight: bold;
+                width: 20%;
+                padding: 1rem;
+                border-radius: 7px;
+                margin: auto;
+                margin-top: 2rem;
+
+                &:hover {
+                        background-color: #ff7649;
+                        color: rgb(23, 22, 22);
+                        cursor: pointer;
+                }
+        }
+}
+
+.hidden {
+        display: none;
+}
+
+.modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        background: none;
+        border-radius: 5px;
+        z-index: 10;
+}
+
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(3px);
+        z-index: 5;
+}
+
+.show-modal {
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 1.75rem 3.5rem;
+        margin: 5rem 2rem;
+        border: none;
+        background-color: #fff;
+        color: #444;
+        border-radius: 10rem;
+        cursor: pointer;
+        // display: none;
+        position: relative;
+        bottom: 4rem;
+}
+
+.close-modal {
+        position: absolute;
+        // top: 0.5rem;
+        right: 2rem;
+        font-size: 3rem;
+        color: #333;
+        cursor: pointer;
+        border: none;
+        background: none;
+}
