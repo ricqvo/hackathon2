@@ -1,0 +1,50 @@
+.about_main {
+  background-image: url("prague-clock.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40em;
+  color: #e7f2f8;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.about_div-text {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_aboutus {
+  margin-top: 0.5em;
+  font-size: 40px;
+  width: 16.5em;
+  height: 2em;
+  color: #74bdcb;
+
+  border-radius: 15px;
+  background-color: #e7f2f8;
+}
+
+.about_text {
+  margin-top: 1em;
+  margin-left: 22em;
+  margin-right: 22em;
+  background-color: #e7f2f8;
+  color: black;
+  padding: 2.5em;
+  border-radius: 15px;
+  transition: linear 0.2s;
+}
+
+.about_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
+  background-color: #74bdcb;
+  color: #e7f2f8;
+}
