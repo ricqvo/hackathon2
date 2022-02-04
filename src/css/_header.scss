@@ -1,0 +1,33 @@
+.header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        min-height: 15vh;
+}
+.header__buttons {
+        display: flex;
+        flex-direction: row;
+
+        margin-right: 5rem;
+}
+.header__text {
+        margin: 0.5rem;
+        font-size: 200%;
+        margin-left: 5rem;
+        font-weight: 700;
+}
+.header__button {
+        font-size: 150%;
+        margin: 0.5rem;
+}
+header {
+        background-color: #74bdcb;
+        color: #e7f2f8;
+}
+
+.header__button:hover {
+        cursor: pointer;
+        text-decoration: underline;
+}

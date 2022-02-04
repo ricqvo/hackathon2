@@ -1,41 +1,7 @@
-* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-size: 16px;
-}
-html {
-        font-family: "Rubik", sans-serif;
-}
-body {
-        min-width: 100vw;
-        min-height: 100vh;
-}
-
-.header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
-        min-height: 6rem;
-}
-.header__buttons {
-        display: flex;
-        flex-direction: row;
-
-        margin-right: 5rem;
-}
-.header__text {
-        margin: 0.5rem;
-        font-size: 200%;
-        margin-left: 5rem;
-}
-.header__button {
-        font-size: 150%;
-        margin: 0.5rem;
-}
-header {
-        background-color: #74bdcb;
-        color: #e7f2f8;
-}
+@import "./home";
+@import "./header";
+@import "./about";
+@import "./random";
+@import "./contact";
+@import "./main";
+//

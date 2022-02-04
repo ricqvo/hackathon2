@@ -1,0 +1,36 @@
+main {
+        min-height: 85vh;
+        background-color: #e7f2f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.events {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        min-height: 80vh;
+        margin: 5rem;
+}
+.eventMain {
+        width: 800px;
+        height: 400px;
+        background-color: #ffa384;
+        border: 2px solid #74bdcb;
+        margin: 1rem;
+}
+.eventRest {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        // max-width: 900px;
+        justify-content: center;
+}
+.eventSmall {
+        width: 300px;
+        height: 150px;
+        background-color: #ffa384;
+        border: 2px solid #74bdcb;
+        margin: 1rem;
+}
